@@ -16,8 +16,7 @@ Our datasets are structured in the JSON Lines (jsonl) format, where each line en
 The datasets adhere to the following key-value schema:
 ```json
 {
-    "Day": "Date of Evaluation",
-    "OS": "Evaluated System",
+    "LLM":"LLM type",
     "Disease": "Ground Truth Disease Type",
     "Validity": "Manual Evaluation of LLM Response Validity",
     "Necessity": "Urgency Rating of LLM Response Based on Manual Evaluation",
@@ -30,8 +29,7 @@ The datasets adhere to the following key-value schema:
 
 ```json
 {
-    "day": "5",
-    "OS": "5",
+    "LLM":"llama-2",
     "disease": "malocclusion",
     "validity": "correct",
     "necessity": "important",
