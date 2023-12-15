@@ -7,7 +7,7 @@ Dataset and basic implementation reference of the paper: Evaluate the ability to
 We currently offer a suite of evaluation datasets encompassing models such as GPT-3.5, GPT-4, Palm2, and Llama2-70B. More data is under reviewed. This dataset is meticulously designed to evaluate the diagnostic capabilities of Large Language Models (LLMs) in the domain of oral disease. 
 
 ### Immediate Access
-For immediate access to our review datasets, please reach out to Yuanhao Ceng at cengyuanhao@bupt.edu.cn.
+For immediate access to our review datasets, please reach out to Yuanhao Zeng at cengyuanhao@bupt.edu.cn.
 
 ### Dataset Format
 Our datasets are structured in the JSON Lines (jsonl) format, where each line encapsulates a comprehensive conversation context. This includes manual evaluation results and meta-information vital for machine learning model training.
